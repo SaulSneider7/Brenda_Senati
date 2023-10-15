@@ -4,14 +4,13 @@ cantidad es mayor mostrar Error -->
     $numero = readline("Ingresa un número de 5 cifras: ");
 
     if (strlen($numero) == 5 && is_numeric($numero)) {
-        // Descomponer el número en dígitos
         $digito1 = $numero[0];
         $digito2 = $numero[1];
         $digito3 = $numero[2];
         $digito4 = $numero[3];
         $digito5 = $numero[4];
 
-        echo "Dígitos del número: $digito1, $digito2, $digito3, $digito4, $digito5";
+        echo "Dígitos del número: $digito1 - $digito2 - $digito3 - $digito4 - $digito5";
     } else {
         echo "Error";
     }
